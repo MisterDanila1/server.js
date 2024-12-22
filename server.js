@@ -5,7 +5,7 @@ const { Telegraf } = require('telegraf');
 
 // Инициализация
 const app = express();
-const botToken = 'ВАШ_ТОКЕН_БОТА'; // Замените на токен вашего бота
+const botToken = '7987142856:AAGbqNgY_tfvhcwLS9s1Pxe_04iGUbOiXIg'; // Замените на токен вашего бота
 const bot = new Telegraf(botToken);
 
 // Хранилище пользователей и их токенов (замените на базу данных в продакшене)
